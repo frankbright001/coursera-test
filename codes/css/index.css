@@ -14,10 +14,11 @@ body{
     font-family: cursive;
 }
 
-p{
+.col-lg-4 col-md-6 col-sm-12{
     background-color: crimson;
     padding: 10px;
-    
+    width: 33%;
+    float: left;
 }
 
 .section-title{
@@ -47,6 +48,7 @@ p{
 footer{
     text-align: center;
     color: red;
+
 }
 
 .section-content{
@@ -55,8 +57,9 @@ footer{
 }
 
 /*Simple Responsive Framework*/
-.row{
+.flexcontainer{
     width: 100%;
+    /*display: flex;*/
 }
 
 /***********For Large Devices*********/
