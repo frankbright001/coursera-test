@@ -1,0 +1,20 @@
+body {
+	background-color: #eb4034;
+	font-size: 16px;
+	color: #fff;
+}
+
+/****** Header ********/
+#header-nav {
+	border: 0;
+	border-radius: 0;
+	background-color: #6600ff;
+}
+.navbar-brand h1 {
+	color: #000;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #ccc;
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
