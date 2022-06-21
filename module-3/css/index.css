@@ -46,11 +46,17 @@ body {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid #eb4034;
 }
+.menu {
+		background-color: #cc66ff;
+		color: #000;
+		font-size: 1.8em;
+		height: 1000px;
+	}
 
 
 
 /********* Desktop view ********/
-@media (min-width: 992px) and (max-width: 1199px) {
+/*@media (min-width: 992px) and (max-width: 1199px) {
 	.menu {
 		background-color: #cc66ff;
 		color: #000;
@@ -58,22 +64,22 @@ body {
 		height: 800px;
 	}
 
-}
+}*/
 
 
 /********* Tablet View ***********/
-@media (min-width: 768px) and (max-width: 991px) {
+/*@media (min-width: 768px) and (max-width: 991px) {
 	.menu {
 		background-color: #cc66ff;
 		color: #000;
 		font-size: 1.8em;
 		height: 700px;
 	}
-}
+}*/
 
 
 /********* Mobile View *********/
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
 	.menu {
 		background-color: #cc66ff;
 		color: #000;
@@ -81,3 +87,4 @@ body {
 		height: 700px;
 	}
 }
+*/
