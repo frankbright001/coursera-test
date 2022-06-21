@@ -10,11 +10,74 @@ body {
 	border-radius: 0;
 	background-color: #6600ff;
 }
-.navbar-brand h1 {
+.navbar-brand h1 { /* Site name */
 	color: #000;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #ccc;
 	margin-top: 0;
 	margin-bottom: 0;
-	
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#navbar-list {
+	margin-top: 10px;
+}
+#navbar-list a {
+	color: #ff0000;
+	text-align: center;
+	font-weight: bold;
+}
+#navbar-list a:hover {
+	background-color: #ff66ff;
+}
+.page-heading {
+	margin-bottom: 35px;
+}
+#navbar-list {
+	background-color: black;
+}
+.container>.navbar-collapse {
+	margin-bottom: -15px;
+}
+.navbar-default .navbar-collapse {
+	border-top: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #eb4034;
+}
+
+
+
+/********* Desktop view ********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.menu {
+		background-color: #cc66ff;
+		color: #000;
+		font-size: 1.8em;
+		height: 800px;
+	}
+
+}
+
+
+/********* Tablet View ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.menu {
+		background-color: #cc66ff;
+		color: #000;
+		font-size: 1.8em;
+		height: 700px;
+	}
+}
+
+
+/********* Mobile View *********/
+@media (max-width: 767px) {
+	.menu {
+		background-color: #cc66ff;
+		color: #000;
+		font-size: 1.8em;
+		height: 700px;
+	}
 }
